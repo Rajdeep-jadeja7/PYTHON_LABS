@@ -1,4 +1,4 @@
-# a. Add, Subtract, Multiply and Divide two Pandas Series
+# a. To Add, Subtract, Multiply and Divide two Pandas Series
 import numpy as np
 import pandas as pd
 s1 = pd.Series([10, 20, 30, 40, 50])
@@ -8,13 +8,13 @@ print("\nSubtraction:\n", s1 - s2)
 print("\nMultiplication:\n", s1 * s2)
 print("\nDivision:\n", s1 / s2)
 
-# b. Convert a dictionary to a Pandas Series
+# b. To Convert a dictionary to a Pandas Series
 import pandas as pd
 data = {'a': 100, 'b': 200, 'c': 300, 'd': 400}
 series = pd.Series(data)
 print(series)
 
-# c. Create a series from a list, numpy array and dict
+# c.For Creating a series from a list, numpy array and dict
 import pandas as pd
 import numpy as np
 list_data = [10, 20, 30, 40]
